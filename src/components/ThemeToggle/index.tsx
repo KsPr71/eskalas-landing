@@ -33,15 +33,18 @@ const ThemeToggle = () => {
 	return (
 		<fieldset className="inline-flex items-center gap-0.5 rounded-xl border border-gray-200 bg-gray-100/60 p-1 dark:border-white/10 dark:bg-white/4">
 			<legend className="sr-only">Tema</legend>
-			{THEMES.map(({ key, Icon, label }) => (
-				<label
-					key={key}
-					className={`relative flex cursor-pointer items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium transition-all duration-200 ${
-						mounted && theme === key
-							? "bg-white text-gray-900 shadow-sm shadow-black/8 dark:bg-white/10 dark:text-white"
-							: "text-gray-500 hover:text-gray-700 dark:text-white/40 dark:hover:text-white/70"
-					}`}
-				>
+			{THEMES.map(({ key, Icon, label }) => {
+				const isActive = mounted && theme === key;
+
+				return (
+					<label
+						key={key}
+						className={`relative flex cursor-pointer items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium transition-all duration-200 ${
+							isActive
+								? "bg-white text-gray-900 shadow-sm shadow-black/8 dark:bg-white/10 dark:text-white"
+								: "text-gray-500 hover:text-gray-700 dark:text-white/40 dark:hover:text-white/70"
+						}`}
+					>
 					<input
 						type="radio"
 						name="color-theme"
@@ -50,10 +53,17 @@ const ThemeToggle = () => {
 						onChange={() => select(key)}
 						className="sr-only"
 					/>
-					<Icon className="h-3.5 w-3.5 shrink-0" />
+						<Icon
+							className={`h-3.5 w-3.5 shrink-0 transition-colors ${
+								isActive
+									? "text-violet-600 dark:text-violet-400"
+									: ""
+							}`}
+						/>
 					<span className="hidden sm:inline">{label}</span>
-				</label>
-			))}
+					</label>
+				);
+			})}
 		</fieldset>
 	);
 };

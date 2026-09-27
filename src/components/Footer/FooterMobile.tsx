@@ -1,7 +1,6 @@
 "use client";
 
 import SocialLinks from "@/components/SocialLinks";
-import ThemeToggle from "@/components/ThemeToggle";
 import { site } from "@/config";
 import type { FooterProps } from "@/types";
 import { motion } from "framer-motion";
@@ -23,7 +22,7 @@ const FooterMobile = ({ name, logo, logoNegative }: FooterProps) => (
 					{name}
 				</span>
 			</a>
-			<ThemeToggle />
+
 		</div>
 
 		<div className="flex gap-8">

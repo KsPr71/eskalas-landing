@@ -34,9 +34,8 @@ export default async function HomePage() {
 
 	return (
 		<main className="container mx-auto px-3 md:px-6">
-			<div className="mx-auto w-64">
-				<ThemeToggle/>
-				
+			<div className="flex justify-center pt-4">
+				<ThemeToggle />
 			</div>
 				
 			<AppHero
