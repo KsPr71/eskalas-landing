@@ -1,7 +1,7 @@
 "use client";
 
-import type { ThemeMode } from "@/types";
 import { memo, useCallback, useEffect, useState } from "react";
+import type { ThemeMode } from "@/types";
 import { applyTheme, isTheme, THEMES } from "./theme";
 
 const ThemeToggle = () => {
@@ -45,22 +45,20 @@ const ThemeToggle = () => {
 								: "text-gray-500 hover:text-gray-700 dark:text-white/40 dark:hover:text-white/70"
 						}`}
 					>
-					<input
-						type="radio"
-						name="color-theme"
-						value={key}
-						checked={mounted ? theme === key : key === "system"}
-						onChange={() => select(key)}
-						className="sr-only"
-					/>
+						<input
+							type="radio"
+							name="color-theme"
+							value={key}
+							checked={mounted ? theme === key : key === "system"}
+							onChange={() => select(key)}
+							className="sr-only"
+						/>
 						<Icon
 							className={`h-3.5 w-3.5 shrink-0 transition-colors ${
-								isActive
-									? "text-violet-600 dark:text-violet-400"
-									: ""
+								isActive ? "text-violet-600 dark:text-violet-400" : ""
 							}`}
 						/>
-					<span className="hidden sm:inline">{label}</span>
+						<span className="hidden sm:inline">{label}</span>
 					</label>
 				);
 			})}

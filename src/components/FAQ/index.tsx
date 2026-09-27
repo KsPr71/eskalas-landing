@@ -1,8 +1,8 @@
 "use client";
 
-import type { FAQProps } from "@/types";
 import { motion } from "framer-motion";
 import { memo } from "react";
+import type { FAQProps } from "@/types";
 import FAQCard from "./FAQCard";
 
 const FAQ = ({ items }: FAQProps) => (
@@ -16,7 +16,8 @@ const FAQ = ({ items }: FAQProps) => (
 		>
 			<span className="section-label mb-4">FAQ</span>
 			<h2 className="section-heading max-w-2xl">
-				¿Deseas saber más? <span className="accent">Aqui te proporcionamos respuestas.</span>
+				¿Deseas saber más?{" "}
+				<span className="accent">Aqui te proporcionamos respuestas.</span>
 			</h2>
 		</motion.div>
 

@@ -1,7 +1,7 @@
 import type { IconType } from "react-icons";
 import {
-	FiBox,
 	FiBook,
+	FiBox,
 	FiClipboard,
 	FiCloud,
 	FiFilePlus,

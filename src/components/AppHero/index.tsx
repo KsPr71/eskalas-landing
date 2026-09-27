@@ -1,9 +1,9 @@
 "use client";
 
-import RatingStars from "@/components/RatingStars";
-import type { AppHeroProps } from "@/types";
 import { motion } from "framer-motion";
 import { FiChevronDown } from "react-icons/fi";
+import RatingStars from "@/components/RatingStars";
+import type { AppHeroProps } from "@/types";
 import AppInfo from "./AppInfo";
 import StoreButtons from "./StoreButtons";
 

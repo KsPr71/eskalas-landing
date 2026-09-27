@@ -1,8 +1,8 @@
 "use client";
 
-import type { GalleryProps } from "@/types";
 import { motion } from "framer-motion";
 import { memo } from "react";
+import type { GalleryProps } from "@/types";
 
 const Gallery = ({ images, onOpen }: GalleryProps) => (
 	<div>

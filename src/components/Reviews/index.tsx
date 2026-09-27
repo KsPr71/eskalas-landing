@@ -1,9 +1,9 @@
 "use client";
 
-import RatingStars from "@/components/RatingStars";
-import type { ReviewsProps } from "@/types";
 import { motion } from "framer-motion";
 import { memo } from "react";
+import RatingStars from "@/components/RatingStars";
+import type { ReviewsProps } from "@/types";
 import ReviewCard from "./ReviewCard";
 
 const Reviews = ({ items }: ReviewsProps) => {

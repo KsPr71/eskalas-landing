@@ -1,7 +1,7 @@
 "use client";
 
-import type { MarkdownLayoutProps } from "@/types";
 import { motion } from "framer-motion";
+import type { MarkdownLayoutProps } from "@/types";
 import TableOfContents from "./TableOfContents";
 
 const MarkdownLayout = ({

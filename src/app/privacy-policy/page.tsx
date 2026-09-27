@@ -1,14 +1,13 @@
+import fs from "node:fs";
+import path from "node:path";
+import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import MarkdownLayout from "@/components/Markdown";
 import { parseMarkdown } from "@/components/Markdown/parseMarkdown";
-import type { Metadata } from "next";
-import fs from "node:fs";
-import path from "node:path";
 
 export const metadata: Metadata = {
 	title: "Política de privacidad",
-	description:
-		"Aprende como manejamos la información sensible y privada",
+	description: "Aprende como manejamos la información sensible y privada",
 };
 
 export default async function PrivacyPage() {

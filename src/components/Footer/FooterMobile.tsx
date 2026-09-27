@@ -1,9 +1,9 @@
 "use client";
 
+import { motion } from "framer-motion";
 import SocialLinks from "@/components/SocialLinks";
 import { site } from "@/config";
 import type { FooterProps } from "@/types";
-import { motion } from "framer-motion";
 import { fade, LEGAL_LINKS, NAV_LINKS } from "./links";
 
 const FooterMobile = ({ name, logo, logoNegative }: FooterProps) => (
@@ -16,13 +16,16 @@ const FooterMobile = ({ name, logo, logoNegative }: FooterProps) => (
 					className="h-9 w-9 rounded-xl border border-gray-200/60 object-cover dark:hidden dark:border-white/10"
 				/>
 				{logoNegative && (
-					<img src={logoNegative} alt={`${name} logo`} className="hidden h-9 w-9 rounded-xl border border-gray-200/60 object-cover dark:block dark:border-white/10" />
+					<img
+						src={logoNegative}
+						alt={`${name} logo`}
+						className="hidden h-9 w-9 rounded-xl border border-gray-200/60 object-cover dark:block dark:border-white/10"
+					/>
 				)}
 				<span className="font-bold tracking-tight text-gray-900 dark:text-white">
 					{name}
 				</span>
 			</a>
-
 		</div>
 
 		<div className="flex gap-8">

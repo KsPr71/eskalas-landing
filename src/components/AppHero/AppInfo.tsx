@@ -19,7 +19,9 @@ const AppInfo = ({ version, minimumOS, releaseDate }: AppInfoProps) => {
 					<span className="font-medium text-gray-500 dark:text-white/40">
 						Requiere
 					</span>
-					<span className="font-semibold text-heading">Android {minimumOS}+</span>
+					<span className="font-semibold text-heading">
+						Android {minimumOS}+
+					</span>
 				</span>
 			)}
 			{releaseDate && (

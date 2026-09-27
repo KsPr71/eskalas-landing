@@ -37,7 +37,7 @@ export default async function HomePage() {
 			<div className="flex justify-center pt-4">
 				<ThemeToggle />
 			</div>
-				
+
 			<AppHero
 				title={app.name}
 				description={app.description}
@@ -50,7 +50,7 @@ export default async function HomePage() {
 				minimumOS={app.minimumOS}
 				releaseDate={app.releaseDate}
 			/>
-		
+
 			<section id="screenshots" className="mb-16 scroll-mt-8 md:mb-24">
 				<Screenshots images={app.screenshots} />
 			</section>

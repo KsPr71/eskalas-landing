@@ -1,8 +1,8 @@
 "use client";
 
-import type { FeaturesProps } from "@/types";
 import { motion } from "framer-motion";
 import { memo } from "react";
+import type { FeaturesProps } from "@/types";
 import FeatureCard from "./FeatureCard";
 
 const Features = ({ items }: FeaturesProps) => (

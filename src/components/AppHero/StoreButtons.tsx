@@ -1,7 +1,7 @@
 "use client";
 
-import type { StoreButtonsProps } from "@/types";
 import { FaGooglePlay } from "react-icons/fa";
+import type { StoreButtonsProps } from "@/types";
 
 const StoreButtons = ({ storeLinks }: StoreButtonsProps) => (
 	<div className="mb-8 flex flex-col items-center gap-3 xs:flex-row xs:justify-center sm:mb-12">

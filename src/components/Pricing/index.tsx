@@ -1,8 +1,8 @@
 "use client";
 
-import type { PricingProps } from "@/types";
 import { motion } from "framer-motion";
 import { memo } from "react";
+import type { PricingProps } from "@/types";
 import TierCard from "./TierCard";
 
 const Pricing = ({ tiers }: PricingProps) => (

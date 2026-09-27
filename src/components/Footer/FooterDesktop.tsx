@@ -1,10 +1,10 @@
 "use client";
 
+import { motion } from "framer-motion";
+import { FaGooglePlay } from "react-icons/fa";
 import SocialLinks from "@/components/SocialLinks";
 import { site } from "@/config";
 import type { FooterProps } from "@/types";
-import { motion } from "framer-motion";
-import { FaGooglePlay } from "react-icons/fa";
 import { fade, LEGAL_LINKS, NAV_LINKS } from "./links";
 
 const colHeader = (title: string) => (
@@ -34,7 +34,11 @@ const FooterDesktop = ({ name, logo, logoNegative }: FooterProps) => (
 					className="h-10 w-10 rounded-xl border border-gray-200/60 object-cover dark:hidden dark:border-white/10"
 				/>
 				{logoNegative && (
-					<img src={logoNegative} alt={`${name} logo`} className="hidden h-10 w-10 rounded-xl border border-gray-200/60 object-cover dark:block dark:border-white/10" />
+					<img
+						src={logoNegative}
+						alt={`${name} logo`}
+						className="hidden h-10 w-10 rounded-xl border border-gray-200/60 object-cover dark:block dark:border-white/10"
+					/>
 				)}
 				<span className="text-base font-bold tracking-tight text-gray-900 dark:text-white">
 					{name}
@@ -44,7 +48,6 @@ const FooterDesktop = ({ name, logo, logoNegative }: FooterProps) => (
 				{site.description}
 			</p>
 			<div className="flex flex-wrap gap-2">
-				
 				<a
 					href={site.storeLinks.google}
 					target="_blank"
@@ -86,7 +89,6 @@ const FooterDesktop = ({ name, logo, logoNegative }: FooterProps) => (
 			<div className="flex flex-wrap justify-end gap-2">
 				<SocialLinks items={site.social} />
 			</div>
-
 		</motion.div>
 	</div>
 );

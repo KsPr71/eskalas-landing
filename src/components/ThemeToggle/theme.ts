@@ -1,5 +1,5 @@
-import type { ThemeMode } from "@/types";
 import { FiMonitor, FiMoon, FiSun } from "react-icons/fi";
+import type { ThemeMode } from "@/types";
 
 export const THEMES: {
 	key: ThemeMode;
