@@ -19,9 +19,17 @@ const ReviewCard = ({ review, index }: ReviewCardProps) => (
 		</div>
 		<p className="mb-5 text-base leading-relaxed text-body">{review.text}</p>
 		<div className="flex items-center gap-3">
-			<div className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-100 text-sm font-bold text-gray-700 dark:bg-white/8 dark:text-white/70">
-				{review.author[0]}
-			</div>
+			{review.avatar ? (
+				<img
+					src={review.avatar}
+					alt={`Foto de ${review.author}`}
+					className="h-9 w-9 rounded-full object-cover"
+				/>
+			) : (
+				<div className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-100 text-sm font-bold text-gray-700 dark:bg-white/8 dark:text-white/70">
+					{review.author[0]}
+				</div>
+			)}
 			<p className="text-sm font-semibold text-gray-900 dark:text-white">
 				{review.author}
 			</p>

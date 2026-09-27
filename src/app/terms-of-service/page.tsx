@@ -6,8 +6,8 @@ import MarkdownLayout from "@/components/Markdown";
 import { parseMarkdown } from "@/components/Markdown/parseMarkdown";
 
 export const metadata: Metadata = {
-	title: "Terms of Service",
-	description: "Read our terms and conditions for using this application.",
+	title: "Términos y condiciones",
+	description: "Lee nuestros términos y condiciones para esta app",
 };
 
 export default async function TermsPage() {
@@ -21,12 +21,12 @@ export default async function TermsPage() {
 	return (
 		<main className="px-4 pb-8 pt-8 md:px-6 md:pt-12">
 			<div className="mx-auto max-w-375">
-				<Breadcrumbs items={[{ label: "Terms of Service" }]} />
+				<Breadcrumbs items={[{ label: "Términos y condiciones" }]} />
 				<MarkdownLayout
 					htmlContent={html}
 					rawContent={body}
-					title="Terms of Service"
-					lastUpdated="February 1, 2025"
+					title="Términos y condiciones"
+					lastUpdated="27 de septiembre de 2026"
 				/>
 			</div>
 		</main>

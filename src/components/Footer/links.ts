@@ -1,14 +1,14 @@
 export const NAV_LINKS = [
-	{ label: "Features", href: "#features" },
-	{ label: "Screenshots", href: "#screenshots" },
-	{ label: "Pricing", href: "#pricing" },
-	{ label: "Reviews", href: "#reviews" },
+	{ label: "Características", href: "#features" },
+	{ label: "Imágenes", href: "#screenshots" },
+	{ label: "Precio", href: "#pricing" },
+	{ label: "Reseñas", href: "#reviews" },
 	{ label: "FAQ", href: "#faq" },
 ];
 
 export const LEGAL_LINKS = [
-	{ label: "Privacy Policy", href: "/privacy-policy" },
-	{ label: "Terms of Service", href: "/terms-of-service" },
+	{ label: "Política de privacidad", href: "/privacy-policy" },
+	{ label: "Términos de servicio", href: "/terms-of-service" },
 ];
 
 export const fade = (delay = 0) => ({

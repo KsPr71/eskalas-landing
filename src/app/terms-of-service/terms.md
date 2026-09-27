@@ -1,41 +1,46 @@
-# Terms of Service
+# Términos y condiciones
 
-**Last updated: February 1, 2025**
+**Última actualización: 27 de septiembre de 2026**
 
-## Acceptance of Terms
+## Aceptación
 
-By downloading or using this app, you agree to these Terms of Service. If you disagree, please uninstall the app.
+Al descargar, instalar, activar o utilizar ESKALAS (la "Aplicación"), aceptas estos Términos y condiciones. Si no estás de acuerdo con ellos, no uses la Aplicación.
 
-## Use of the App
+## Finalidad profesional
 
-You agree to use the app only for lawful purposes and in accordance with these Terms. You must not:
+ESKALAS ofrece scores, escalas y calculadoras como material de apoyo para profesionales y estudiantes de la salud. No sustituye el juicio clínico, la valoración directa del paciente, las guías vigentes, la consulta con especialistas ni los protocolos de cada institución.
 
-- Use the app to violate any laws or regulations
-- Attempt to gain unauthorized access to any part of the service
-- Interfere with the app's operation or other users' experience
+La Aplicación no emite diagnósticos, no prescribe tratamientos y no debe utilizarse como única base para decisiones clínicas, de urgencia o de seguridad del paciente. El usuario debe verificar la información, las fórmulas, los resultados y su pertinencia antes de aplicarlos.
 
-## Intellectual Property
+## Uso permitido
 
-All content, trademarks, and code in this app are owned by us or our licensors. You may not copy, modify, or distribute them without written permission.
+Se concede una licencia personal, limitada, no exclusiva, no transferible y revocable para usar la Aplicación conforme a estos términos y a la normativa aplicable. No está permitido:
 
-## Subscriptions and Payments
+- usar la Aplicación con fines ilícitos o contrarios a la ética profesional;
+- descompilar, modificar, distribuir o intentar extraer el código de la Aplicación, salvo que una norma imperativa lo permita;
+- eludir, manipular o intentar vulnerar el sistema de activación;
+- utilizar la Aplicación para procesar o divulgar información de pacientes sin la autorización y las salvaguardas exigidas por la normativa aplicable.
 
-- Subscriptions are billed through the App Store or Google Play
-- Prices may change with notice
-- Refunds are subject to the platform's refund policy
+## Activación
 
-## Disclaimer of Warranties
+La Aplicación utiliza un identificador del dispositivo únicamente para validar la activación de la licencia. Una activación puede estar vinculada a un dispositivo; el cambio o la pérdida del dispositivo puede requerir una nueva activación. Para asistencia relacionada con la activación, escribe a **novadev2026@gmail.com**.
 
-The app is provided "as is" without warranties of any kind. We do not guarantee the app will be error-free or uninterrupted.
+## Disponibilidad, contenido y actualizaciones
 
-## Limitation of Liability
+Procuramos que la información y el funcionamiento de ESKALAS sean útiles y actuales, pero no garantizamos que estén libres de errores, completos o disponibles sin interrupciones. Podemos corregir, actualizar, añadir o retirar contenido y funcionalidades cuando resulte necesario.
 
-To the fullest extent permitted by law, we are not liable for any indirect, incidental, or consequential damages arising from your use of the app.
+## Propiedad intelectual
 
-## Changes to These Terms
+La Aplicación, su diseño, código, contenidos y elementos distintivos están protegidos por las leyes aplicables. No se concede ningún derecho de propiedad intelectual distinto de la licencia de uso expresamente indicada en estos términos.
 
-We may update these Terms occasionally. Continued use of the app after changes constitutes acceptance.
+## Limitación de responsabilidad
 
-## Contact
+En la máxima medida permitida por la ley, ESKALAS y sus responsables no serán responsables por decisiones clínicas, daños indirectos, pérdidas de datos, pérdida de beneficios o perjuicios derivados del uso, la imposibilidad de uso o la confianza en el contenido de la Aplicación. Esta cláusula no limita derechos que la legislación aplicable no permita limitar.
 
-Questions? Email us at **support@example.com**.
+## Cambios a estos términos
+
+Podemos modificar estos términos. La versión vigente se publicará en esta página con su fecha de actualización. El uso continuado de la Aplicación tras la publicación de cambios supone la aceptación de los términos actualizados, en la medida permitida por la ley.
+
+## Contacto
+
+Para consultas sobre estos términos, escribe a **novadev2026@gmail.com**.

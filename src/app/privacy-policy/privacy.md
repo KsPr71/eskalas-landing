@@ -1,35 +1,37 @@
-# Privacy Policy
+# Política de privacidad
 
-**Last updated: February 1, 2025**
+**Última actualización: 27 de septiembre de 2026**
 
-## Introduction
+## Alcance
 
-Your privacy matters to us. This Privacy Policy explains how we collect, use, and protect your information when you use our app.
+Esta política explica el tratamiento de información realizado por ESKALAS (la "Aplicación"). ESKALAS es una herramienta de consulta para uso profesional y académico en el ámbito de la salud.
 
-## Information We Collect
+## Información que utiliza la Aplicación
 
-We collect only the information necessary to provide and improve our service:
+ESKALAS no solicita ni recopila nombres, correos electrónicos, números telefónicos, ubicaciones, contactos, fotografías, datos de pacientes, historiales clínicos, credenciales, información de pago ni datos de uso con fines analíticos o publicitarios.
 
-- **Account data** — name and email address when you create an account
-- **Usage data** — features you use and how often, to improve the experience
-- **Device data** — device model and OS version for compatibility purposes
+Para activar la licencia, la Aplicación utiliza un identificador del dispositivo. Este identificador se emplea únicamente para validar y asociar la activación con el dispositivo correspondiente. No se usa para crear perfiles, rastrear la actividad del usuario ni enviar publicidad.
 
-We do **not** sell, rent, or share your personal information with third parties.
+Según la legislación aplicable, un identificador de dispositivo puede considerarse dato personal. Por ello, lo tratamos exclusivamente para la finalidad de activación descrita en esta política.
 
-## How We Use Your Information
+## Datos introducidos en la Aplicación
 
-- To operate and maintain the app
-- To improve features and fix issues
-- To respond to your support requests
+Los resultados, notas o información que el usuario consulte o genere en ESKALAS permanecen en el dispositivo. La Aplicación no los transmite a nuestros servidores ni los comparte con terceros.
 
-## Data Security
+El usuario es responsable de no introducir información identificable de pacientes cuando su normativa profesional, institucional o aplicable no lo permita.
 
-Your data is encrypted in transit (TLS) and at rest. We follow industry-standard security practices to protect your information.
+## Compartición de información
 
-## Your Rights
+No vendemos, alquilamos, cedemos ni compartimos el identificador del dispositivo ni la información generada en la Aplicación con terceros. Tampoco utilizamos redes publicitarias, herramientas de analítica o rastreadores de comportamiento dentro de la Aplicación.
 
-You may request to access, correct, or delete your personal data at any time by contacting us at support@example.com.
+## Conservación y seguridad
 
-## Contact
+El identificador del dispositivo se conserva solo durante el tiempo razonablemente necesario para gestionar la activación y prevenir usos no autorizados de la licencia. Aplicamos medidas razonables para proteger la información de activación; sin embargo, ningún sistema puede garantizar seguridad absoluta.
 
-Questions? Email us at **support@example.com**.
+## Tus derechos y contacto
+
+Puedes solicitar información sobre el identificador asociado a tu activación, su corrección o eliminación cuando corresponda. Para hacerlo, escribe a **novadev2026@gmail.com** e indica el dispositivo o la referencia de activación necesaria para localizar la solicitud.
+
+## Cambios a esta política
+
+Podemos actualizar esta política si cambia el funcionamiento de la Aplicación o la normativa aplicable. La fecha de actualización mostrada al inicio indicará la versión vigente.

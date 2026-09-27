@@ -1,7 +1,7 @@
 "use client";
 
-import { memo, useCallback, useEffect, useState } from "react";
 import type { ThemeMode } from "@/types";
+import { memo, useCallback, useEffect, useState } from "react";
 import { applyTheme, isTheme, THEMES } from "./theme";
 
 const ThemeToggle = () => {
@@ -32,7 +32,7 @@ const ThemeToggle = () => {
 
 	return (
 		<fieldset className="inline-flex items-center gap-0.5 rounded-xl border border-gray-200 bg-gray-100/60 p-1 dark:border-white/10 dark:bg-white/4">
-			<legend className="sr-only">Color theme</legend>
+			<legend className="sr-only">Tema</legend>
 			{THEMES.map(({ key, Icon, label }) => (
 				<label
 					key={key}

@@ -1,7 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
 import type { MarkdownLayoutProps } from "@/types";
+import { motion } from "framer-motion";
 import TableOfContents from "./TableOfContents";
 
 const MarkdownLayout = ({
@@ -24,7 +24,7 @@ const MarkdownLayout = ({
 				</h1>
 				{lastUpdated && (
 					<p className="text-sm text-gray-500 dark:text-white/35">
-						Last updated: {lastUpdated}
+						Actualizado: {lastUpdated}
 					</p>
 				)}
 			</motion.div>

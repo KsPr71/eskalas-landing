@@ -1,14 +1,14 @@
-import { FiMonitor, FiMoon, FiSun } from "react-icons/fi";
 import type { ThemeMode } from "@/types";
+import { FiMonitor, FiMoon, FiSun } from "react-icons/fi";
 
 export const THEMES: {
 	key: ThemeMode;
 	Icon: React.ComponentType<{ className?: string }>;
 	label: string;
 }[] = [
-	{ key: "light", Icon: FiSun, label: "Light" },
-	{ key: "system", Icon: FiMonitor, label: "System" },
-	{ key: "dark", Icon: FiMoon, label: "Dark" },
+	{ key: "light", Icon: FiSun, label: "Claro" },
+	{ key: "system", Icon: FiMonitor, label: "Sistema" },
+	{ key: "dark", Icon: FiMoon, label: "Oscuro" },
 ];
 
 export const isTheme = (v: string | null): v is ThemeMode =>

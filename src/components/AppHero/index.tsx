@@ -1,9 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { FiChevronDown } from "react-icons/fi";
 import RatingStars from "@/components/RatingStars";
 import type { AppHeroProps } from "@/types";
+import { motion } from "framer-motion";
+import { FiChevronDown } from "react-icons/fi";
 import AppInfo from "./AppInfo";
 import StoreButtons from "./StoreButtons";
 
@@ -18,6 +18,7 @@ const AppHero = ({
 	description,
 	storeLinks,
 	logo,
+	logoNegative,
 	rating,
 	ageRating,
 	version,
@@ -32,8 +33,17 @@ const AppHero = ({
 					alt={`${title} icon`}
 					fetchPriority="high"
 					loading="eager"
-					className="relative h-24 w-24 rounded-3xl border border-gray-200/50 object-cover shadow-2xl dark:border-white/10 sm:h-28 sm:w-28 md:h-32 md:w-32"
+					className="relative h-24 w-24 rounded-3xl border border-gray-200/50 object-cover shadow-2xl dark:hidden dark:border-white/10 sm:h-28 sm:w-28 md:h-32 md:w-32"
 				/>
+				{logoNegative && (
+					<img
+						src={logoNegative}
+						alt={`${title} icon`}
+						fetchPriority="high"
+						loading="eager"
+						className="relative hidden h-24 w-24 rounded-3xl border border-gray-200/50 object-cover shadow-2xl dark:block dark:border-white/10 sm:h-28 sm:w-28 md:h-32 md:w-32"
+					/>
+				)}
 			</motion.div>
 
 			<motion.div

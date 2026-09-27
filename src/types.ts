@@ -2,6 +2,7 @@ export interface AppHeroProps {
 	title: string;
 	description: string;
 	logo: string;
+	logoNegative?: string;
 	storeLinks: { apple: string; google: string };
 	rating: { score: number; count: string };
 	ageRating: string;
@@ -135,6 +136,7 @@ export interface SocialLinksProps {
 export interface FooterProps {
 	name: string;
 	logo: string;
+	logoNegative?: string;
 }
 
 export interface GalleryProps {

@@ -1,8 +1,8 @@
 "use client";
 
+import type { GalleryProps } from "@/types";
 import { motion } from "framer-motion";
 import { memo } from "react";
-import type { GalleryProps } from "@/types";
 
 const Gallery = ({ images, onOpen }: GalleryProps) => (
 	<div>
@@ -14,7 +14,7 @@ const Gallery = ({ images, onOpen }: GalleryProps) => (
 				transition={{ duration: 0.4 }}
 				className="section-label"
 			>
-				Screenshots
+				Imágenes
 			</motion.span>
 			<motion.h2
 				initial={{ opacity: 0, y: 20 }}
@@ -23,7 +23,7 @@ const Gallery = ({ images, onOpen }: GalleryProps) => (
 				transition={{ duration: 0.4, delay: 0.05 }}
 				className="section-heading"
 			>
-				See it <span className="accent">in action.</span>
+				Experimenta <span className="accent">la acción.</span>
 			</motion.h2>
 		</div>
 

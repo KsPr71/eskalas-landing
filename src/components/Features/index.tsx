@@ -1,8 +1,8 @@
 "use client";
 
+import type { FeaturesProps } from "@/types";
 import { motion } from "framer-motion";
 import { memo } from "react";
-import type { FeaturesProps } from "@/types";
 import FeatureCard from "./FeatureCard";
 
 const Features = ({ items }: FeaturesProps) => (
@@ -14,9 +14,9 @@ const Features = ({ items }: FeaturesProps) => (
 			transition={{ duration: 0.4 }}
 			className="mb-12 flex flex-col items-center text-center"
 		>
-			<span className="section-label mb-4">Features</span>
+			<span className="section-label mb-4">Características</span>
 			<h2 className="section-heading max-w-2xl">
-				Everything you need, <span className="accent">in one app.</span>
+				Todo lo que necesitas, <span className="accent">en una sola app.</span>
 			</h2>
 		</motion.div>
 

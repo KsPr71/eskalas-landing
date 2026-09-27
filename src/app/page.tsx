@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import Reviews from "@/components/Reviews";
 import Screenshots from "@/components/Screenshots";
+import ThemeToggle from "@/components/ThemeToggle";
 import {
 	faqs,
 	features,
@@ -21,6 +22,7 @@ export default async function HomePage() {
 		name: storeData.name ?? site.name,
 		description: storeData.description ?? site.description,
 		logo: storeData.logo ?? site.logo,
+		logoNegative: site["logo-negative"],
 		storeLinks: storeData.storeLinks ?? site.storeLinks,
 		rating: storeData.rating ?? site.rating,
 		ageRating: storeData.ageRating ?? site.ageRating,
@@ -32,10 +34,16 @@ export default async function HomePage() {
 
 	return (
 		<main className="container mx-auto px-3 md:px-6">
+			<div className="mx-auto w-64">
+				<ThemeToggle/>
+				
+			</div>
+				
 			<AppHero
 				title={app.name}
 				description={app.description}
 				logo={app.logo}
+				logoNegative={app.logoNegative}
 				storeLinks={app.storeLinks}
 				rating={app.rating}
 				ageRating={app.ageRating}
@@ -43,6 +51,7 @@ export default async function HomePage() {
 				minimumOS={app.minimumOS}
 				releaseDate={app.releaseDate}
 			/>
+		
 			<section id="screenshots" className="mb-16 scroll-mt-8 md:mb-24">
 				<Screenshots images={app.screenshots} />
 			</section>

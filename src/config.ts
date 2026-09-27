@@ -12,6 +12,7 @@ type SiteConfig = {
 	url: string;
 	description: string;
 	logo: string;
+	"logo-negative"?: string;
 	keywords: string[];
 	storeLinks: { apple: string; google: string };
 	rating: { score: number; count: string };

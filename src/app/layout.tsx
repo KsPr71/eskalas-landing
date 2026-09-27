@@ -69,7 +69,11 @@ export default function RootLayout({
 			<body className="bg-gray-50 text-gray-900 dark:bg-[#060606] dark:text-white">
 				<div className="mx-auto max-w-375">
 					{children}
-					<Footer name={site.name} logo={site.logo} />
+					<Footer
+						name={site.name}
+						logo={site.logo}
+						logoNegative={site["logo-negative"]}
+					/>
 				</div>
 				<BackToTop />
 			</body>
